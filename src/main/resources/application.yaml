@@ -1,0 +1,17 @@
+spring:
+
+  datasource:
+  
+    password: TrainerWorkouts
+      
+    username: TrainerWorkouts
+    
+    url: jdbc:mysql://localhost:3306/FinalProject
+    
+logging:
+
+  level:
+  
+    root: warn
+    
+    '[com.promineotech]': debug
